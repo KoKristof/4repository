@@ -1,0 +1,11 @@
+#containeradd {
+    margin-top:30px; border:1px solid grey;width:350px
+}
+#add {
+    position:absolute;
+    height:23px;
+    cursor:pointer;background:#3299FF; color:snow
+}
+#add:hover {
+    background:blue;
+}
