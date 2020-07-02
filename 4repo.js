@@ -2,27 +2,33 @@
   $(document).ready(function(){
   
    $("#myform").submit(function(event){
-     event.preventDefault(); var textinp=$("#myinput").val();
-     $("li:empty").first().html(textinp);
-(function(event){ event.preventDefault();
-     $("addd").on("click", (function(event){ event.preventDefault();
-     var r=$('<input type="button"value="Delete"/>');
+     event.preventDefault(); var textinp=$("#myinput").val(); 
      
-     $("li").first().append(r)})
-    )
- 
-   });
+     $("li:empty").first().html(textinp) ;
+
    
 
    
-    notworking
+   })
+   
+  (function orange (){
+     if($("li").is (":empty")){$("li").append(r);
+let r  = $('<input type="button"value="Delete"/>') 
+     }
+   })
+
+   
+
+
+
+
+
+
    }
-   
-   
    )
   
-
-  
+   
+    
  
   
 
